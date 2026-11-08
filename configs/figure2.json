@@ -1,0 +1,12 @@
+{
+  "experiment": "Abbott 2024 Figure 2; neutral 3-joint anatomical model",
+  "dataset_doi": "10.17632/jm5dhwwmyd.2",
+  "model_file": "data/original/jm5dhwwmyd-v2/data/ModelObjects.mat",
+  "model_cell_matlab": [2, 2],
+  "directions_file": "data/original/jm5dhwwmyd-v2/data/TestDirections.mat",
+  "affected_group": "DCE_R",
+  "capacity_multipliers": [0, 1, 2],
+  "solver": "highs",
+  "feasibility_tolerance": 1e-9,
+  "output_directory": "results/figure2"
+}

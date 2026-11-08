@@ -1,0 +1,99 @@
+{
+  "dataset": {
+    "id": "jm5dhwwmyd",
+    "version": 2,
+    "doi": "10.17632/jm5dhwwmyd.2",
+    "url": "https://data.mendeley.com/datasets/jm5dhwwmyd/2",
+    "author": "Rebecca Abbott",
+    "published": "2024-04-16",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_inspection": "No bundled LICENSE or copyright notice in the eight archive members. Dataset landing page specifies CC BY 4.0; third-party material may have separate rights. Originals retained locally and excluded from Git."
+  },
+  "paper": {
+    "doi": "10.1016/j.jbiomech.2024.112096",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11132632/",
+    "license": "PMC author manuscript; no blanket CC license asserted. Figure and supplement cached for local research; excluded from Git."
+  },
+  "retrieved_utc": "2026-11-07",
+  "download_client": "curl (Python urllib returned 403; official archive route succeeded with curl)",
+  "downloads": [
+    {
+      "path": "data/original/jm5dhwwmyd-v2.zip",
+      "bytes": 237786,
+      "sha256": "a41db11bf62da0bf4fea5352efc6f1eadb4cfabbadc2150720c62c429d573879",
+      "url": "https://data.mendeley.com/public-api/zip/jm5dhwwmyd/download/2"
+    },
+    {
+      "path": "data/original/paper/supplement.docx",
+      "bytes": 63820,
+      "sha256": "8fbc8cc307ed84a3ec06cab39d1b8f79c3a018213944f065a29d4213b4ce9a18",
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0021929024001738-mmc1.docx"
+    },
+    {
+      "path": "data/original/paper/figure2.jpg",
+      "bytes": 760929,
+      "sha256": "c1e022698a4de22d24d1f73fb72521e11c5437308db200dc0b7a2e5c435f9514",
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e1eb/11132632/c93d900e2fb7/nihms-1990275-f0002.jpg"
+    }
+  ],
+  "dataset_files": [
+    {
+      "path": "data/original/jm5dhwwmyd-v2/classes/ModParams.m",
+      "bytes": 9657,
+      "sha256": "871769f2794a827f211e7249df1d95f4796a9ae9189959fff54e970a4d7eb7a0"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/classes/ModelCase.m",
+      "bytes": 10371,
+      "sha256": "32129042e5e758084d60d23f808947d7df18fe8d1027dbcd102eebf797ebc648"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/data/KinModels.mat",
+      "bytes": 204240,
+      "sha256": "e467b498b9a9757fb16125c49c54b5de90cbb63bb22ef9c223f372ef13d67c18"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/data/ModelObjects.mat",
+      "bytes": 1760923,
+      "sha256": "fc5c00c6cf33c79432786e34e1d4fc92f6f70373bfb1d5688d55c4dc5eae7e26"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/data/MuscleGroups.mat",
+      "bytes": 354440,
+      "sha256": "a83650b5c2eec84940d228b28b290d4a04556d855df25cc11e9eb7efaa6740b9"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/data/TestDirections.mat",
+      "bytes": 23088,
+      "sha256": "dd0ca53d1c442420036a9ff709a0c0818dfbecc1639b8ccd5f9db11cd9f116d3"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/functions/computeFWS.m",
+      "bytes": 2683,
+      "sha256": "5b3cf1d1cd372e8d7939355f8de5db8503322fd67ca40384babe3fc01394c917"
+    },
+    {
+      "path": "data/original/jm5dhwwmyd-v2/readme.txt",
+      "bytes": 4878,
+      "sha256": "9c84e788765ce6eacbd86538304ded6c1592dc8cc33126b59c201c43a0225cc8"
+    }
+  ],
+  "landing_snapshots": [
+    {
+      "path": "data/original/dataset-page.html",
+      "bytes": 129688,
+      "sha256": "8d1094b1eba24397be30144dd96a8f6853f81a90be13d4bf45fc6fc87f3dcdc2"
+    },
+    {
+      "path": "data/original/paper/article.html",
+      "bytes": 182330,
+      "sha256": "ed6725cff4af73ca666225f5d512777a8a1901d732cfb33542df7d9a58e72378"
+    }
+  ],
+  "archive_notes": [
+    "Eight members; no OpenSim .osim or Supplementary_Materials.pdf despite README mentions.",
+    "README calls muscle-group file MuscleModels.mat; actual file is MuscleGroups.mat.",
+    "No author-generated optimal alpha/beta/eflag output arrays or Figure 2 plotting script in archive; ModelObjects contains parameters, not force results."
+  ]
+}

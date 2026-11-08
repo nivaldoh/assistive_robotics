@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-11-08T05:37:35.859732+00:00",
+  "browser": "156.0.8078.4",
+  "origin": "local file, no HTTP server",
+  "guided_steps": 4,
+  "force_arrow_controls": "passed: equal and opposite",
+  "view_switches": 3,
+  "beginner_example_condition_combinations": 9,
+  "direction_condition_combinations_checked": 75,
+  "all_displayed_forces_match_saved_run": true,
+  "embedded_data_matches_saved_run": true,
+  "activation_rows_per_view": 24,
+  "point_click": "passed",
+  "point_keyboard_selection_and_focus": "passed: Enter and Space",
+  "tour_keyboard_navigation": "passed",
+  "overflow_checks": [
+    "390px / step 1",
+    "390px / step 2",
+    "390px / step 3",
+    "390px / step 4",
+    "390px / full explorer",
+    "320px / step 1",
+    "320px / step 2",
+    "320px / step 3",
+    "320px / step 4",
+    "320px / full explorer"
+  ],
+  "javascript_errors": [],
+  "http_requests": [],
+  "screenshots_directory": "results/browser-check"
+}

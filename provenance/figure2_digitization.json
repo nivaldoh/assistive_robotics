@@ -1,0 +1,34 @@
+{
+  "source": "Abbott et al. (2024), Figure 2, PMC JPEG (1525 x 1627 pixels)",
+  "source_path": "data/original/paper/figure2.jpg",
+  "method": "Manual reading of marker centers and 300-N circle radii in the unresized image; force = 300 * Euclidean pixel radius / circle radius. No model fitting. Overlapping 2x markers were not independently resolved and are excluded. A repeated point across panels is an independent graphical reading, not an independent experimental datum.",
+  "uncertainty_N": 8,
+  "uncertainty_basis": "Conservative approximate bound for thick/overlapping markers, center/radius placement and JPEG rendering; not a statistical confidence interval.",
+  "panels": {
+    "sagittal": {"center_pixel_xy": [253, 362], "radius_300N_px": 225},
+    "transverse": {"center_pixel_xy": [260, 869], "radius_300N_px": 230},
+    "coronal": {"center_pixel_xy": [255, 1372], "radius_300N_px": 225}
+  },
+  "points": [
+    {"panel":"sagittal","direction":"forehead","multiplier":1,"pixel_xy":[285,330]},
+    {"panel":"sagittal","direction":"noseBelow","multiplier":1,"pixel_xy":[365,405]},
+    {"panel":"sagittal","direction":"chinFront","multiplier":1,"pixel_xy":[398,510]},
+    {"panel":"sagittal","direction":"chinUnder","multiplier":1,"pixel_xy":[285,455]},
+    {"panel":"sagittal","direction":"backLow","multiplier":1,"pixel_xy":[85,423]},
+    {"panel":"sagittal","direction":"back","multiplier":1,"pixel_xy":[106,336]},
+    {"panel":"sagittal","direction":"backHigh","multiplier":1,"pixel_xy":[110,220]},
+    {"panel":"sagittal","direction":"backLow","multiplier":0,"pixel_xy":[133,407]},
+    {"panel":"sagittal","direction":"back","multiplier":0,"pixel_xy":[147,344]},
+    {"panel":"sagittal","direction":"backHigh","multiplier":0,"pixel_xy":[150,260]},
+    {"panel":"transverse","direction":"noseBelow","multiplier":1,"pixel_xy":[260,746]},
+    {"panel":"transverse","direction":"cheekL","multiplier":1,"pixel_xy":[213,812]},
+    {"panel":"transverse","direction":"templeL","multiplier":1,"pixel_xy":[218,836]},
+    {"panel":"transverse","direction":"earL","multiplier":1,"pixel_xy":[174,869]},
+    {"panel":"transverse","direction":"backLowL","multiplier":1,"pixel_xy":[194,934]},
+    {"panel":"transverse","direction":"backLow","multiplier":1,"pixel_xy":[260,1049]},
+    {"panel":"transverse","direction":"backLow","multiplier":0,"pixel_xy":[260,996]},
+    {"panel":"coronal","direction":"aboveEarR","multiplier":1,"pixel_xy":[201,1341]},
+    {"panel":"coronal","direction":"earR","multiplier":1,"pixel_xy":[171,1372]},
+    {"panel":"coronal","direction":"styloidR","multiplier":1,"pixel_xy":[158,1427]}
+  ]
+}
